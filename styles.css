@@ -1,23 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');
+
 body{
-    color:black
-}
-
-h1{
-    color:red
-}
-
-h2{
-    color:green;
-}
-
-h3{
-    color:orange;
-}
-
-#title-one{
-    color: hotpink;
-}
-
-.para{
-    color: fuchsia;
+    font-family: 'Montserrat', sans-serif;
 }
