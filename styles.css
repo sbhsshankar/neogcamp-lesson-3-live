@@ -11,6 +11,7 @@ hr{
 :root{
     --primary-color: #4d7c0f;
     --secondary-color: white;
+    --offwhite-color: #F3F4F6;
 }
 
 /** container **/
@@ -98,4 +99,18 @@ hr{
 .hero .hero-heading{
     text-align: center;
     color: var(--primary-color);
+}
+
+
+/** section **/
+
+
+.section h3{
+    text-align: center;
+    padding: 2rem;
+}
+
+.section-offwhite{
+    background-color: var(--offwhite-color);
+    color: black;
 }
