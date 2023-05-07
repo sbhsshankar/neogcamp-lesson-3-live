@@ -56,3 +56,28 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+/** nav **/
+
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem ;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+     font-weight: bold;
+}
+
+.navigation .link{
+    color: var(--secondary-color);
+}
+
+.navigation .list-non-bullet{
+    text-align: center;
+}
+
+.navigation .link-one{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
