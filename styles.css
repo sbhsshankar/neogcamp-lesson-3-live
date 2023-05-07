@@ -81,3 +81,21 @@ hr{
     font-weight: bold;
     font-size: 1.1rem;
 }
+
+
+/** header **/
+
+.hero{
+    padding: 2rem;
+}
+
+.hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    color: var(--primary-color);
+}
