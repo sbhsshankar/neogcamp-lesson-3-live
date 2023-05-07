@@ -30,17 +30,29 @@ hr{
     padding-left: 2rem;
     padding-right: 2rem;
 }
-.primary-link{
+.link-primary{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 0.5rem;
 }
 
-.secondary-link{
+.link-secondary{
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color)
     
+}
+
+
+/** lists **/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
 
