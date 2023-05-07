@@ -4,6 +4,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+    padding-top: 1rem;
+}
+
 :root{
     --primary-color: #4d7c0f;
     --secondary-color: white;
@@ -21,7 +25,10 @@ body{
 /** links **/
 .link{
     text-decoration: none;
-    padding: 0.5rem 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .primary-link{
     background-color: var(--primary-color);
